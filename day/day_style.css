@@ -1,0 +1,41 @@
+/* Navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #231123;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #8b7f8b;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  font-family: 'Inknut Antiqua';
+  width: 999px;
+}
+
+.navbar a:hover {
+  color: #7C9EB2;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+}
+
+.navbar a.current {
+  color: #7C9EB2;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+}
+
+/* Main page */
+.main {
+  margin-top: 30px;
+}
+
+body {
+  margin: 0px;
+}
