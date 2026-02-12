@@ -115,7 +115,7 @@
 /* Outfit select buttons */
 #outfitselect_button_night__under_furgown_1 {
   position: absolute;
-  transform: translate(38%, 58%);
+  transform: translate(30%, 58%);
   z-index: 0;
   background: none;
   border: none;
@@ -128,7 +128,7 @@
 
 #outfitselect_button_night__under_furgown_2 {
   position: absolute;
-  transform: translate(120%, 58%);
+  transform: translate(105%, 58%);
   z-index: 0;
   background: none;
   border: none;
@@ -141,7 +141,7 @@
 
 #outfitselect_button_night__under_furgown_3 {
   position: absolute;
-  transform: translate(202%, 58%);
+  transform: translate(182%, 58%);
   z-index: 0;
   background: none;
   border: none;
