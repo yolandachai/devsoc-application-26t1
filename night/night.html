@@ -15,7 +15,7 @@
   <!-- Navigation bar -->
   <nav class="navbar">
     <div class="navbar_left">
-      <a href="/devsoc-application-26t1/index/index.html">Home</a>
+      <a href="/devsoc-application-26t1">Home</a>
     </div>
     <div class="navbar_right">
       <a href="/devsoc-application-26t1/day/day.html">Daytime Wardrobe</a>
@@ -23,6 +23,38 @@
     </div>
   </nav>
 
+  <!-- Dress-up -->
+  <div class="dressup">
+    <!-- Body -->
+    <div class="dressup_container">
+      <div class="dressup_images">
+        <img id="dressup_image_body" src="/devsoc-application-26t1/images/body.png"/>
+        <img id="dressup_image_night__under_furgown_1" src="/devsoc-application-26t1/images/night__under_furgown_1.png"/>
+        <img id="dressup_image_night__under_furgown_2" src="/devsoc-application-26t1/images/night__under_furgown_2.png"/>
+        <img id="dressup_image_night__under_furgown_3" src="/devsoc-application-26t1/images/night__under_furgown_3.png"/>
+      </div>
+    </div>
 
+    <!-- Outfit select -->
+    <div class="outfitselect_container">
+      <div class="outfitselect_images">
+        <img id="outfitselect_image_outfitselect_background" src="/devsoc-application-26t1/images/outfitselect_background.png"/>
+
+        <!-- Under furgown-->
+        <button id="outfitselect_button_night__under_furgown_1" type="button" onclick="night_clothes_change('under_furgown_1')">
+          <img src="/devsoc-application-26t1/images/night__under_furgown_1.png" alt="Under Furgown 1 Button">
+        </button>
+
+        <button id="outfitselect_button_night__under_furgown_2" type="button" onclick="night_clothes_change('under_furgown_2')">
+          <img src="/devsoc-application-26t1/images/night__under_furgown_2.png" alt="Under Furgown 2 Button">
+        </button>
+
+        <button id="outfitselect_button_night__under_furgown_3" type="button" onclick="night_clothes_change('under_furgown_3')">
+          <img src="/devsoc-application-26t1/images/night__under_furgown_3.png" alt="Under Furgown 3 Button">
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="/devsoc-application-26t1/app.js"></script>
 </body>
 </html>
