@@ -55,7 +55,7 @@
 }
 
 /* Main page */
-.main_container {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +67,7 @@
 
 .main_content {
   position: absolute;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .main_content h1 {
@@ -94,7 +94,7 @@
   font-size: 18px;
 }
 
-.main_images #main_index__circle {
+.main_images #main_image_index__circle {
   position: absolute;
   max-height: 100%;
   max-width: 100%;
