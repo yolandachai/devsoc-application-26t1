@@ -24,36 +24,38 @@
   color: #191716;
   text-align: center;
   text-decoration: none;
-  margin-top: 12px;
-  margin-bottom: 8px;
+  margin-top: 6px;
+  margin-bottom: 2px;
   font-family: 'Cardo';
-  font-style: italic;
+  font-family: 'Inknut Antiqua';
+  font-weight: 300;
+  letter-spacing: -1px;
 }
 
 .navbar_left a {
   min-width: 100px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navbar_right a {
   min-width: 180px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .navbar a:hover {
   color: #603A40;
-  font-family: 'Cardo';
-  font-weight: 400;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
 }
 
 .navbar a.current {
   color: #603A40;
-  font-family: 'Cardo';
-  font-weight: 400;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
 }
 
 /* Main page */
-.main_container {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +67,7 @@
 
 .main_content {
   position: absolute;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .main_content h1 {
@@ -92,7 +94,7 @@
   font-size: 18px;
 }
 
-.main_images #main_index__circle {
+.main_images #main_image_index__circle {
   position: absolute;
   max-height: 100%;
   max-width: 100%;

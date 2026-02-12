@@ -24,37 +24,131 @@
   color: #191716;
   text-align: center;
   text-decoration: none;
-  margin-top: 12px;
-  margin-bottom: 8px;
+  margin-top: 6px;
+  margin-bottom: 2px;
   font-family: 'Cardo';
-  font-style: italic;
+  font-family: 'Inknut Antiqua';
+  font-weight: 300;
+  letter-spacing: -1px;
 }
 
 .navbar_left a {
   min-width: 100px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navbar_right a {
   min-width: 180px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .navbar a:hover {
   color: #603A40;
-  font-family: 'Cardo';
-  font-weight: 400;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
 }
 
 .navbar a.current {
   color: #603A40;
-  font-family: 'Cardo';
-  font-weight: 400;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
 }
 
-/* Main page */
-.main {
-  margin-top: 30px;
+/* Dress-up */
+.dressup {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Dress-up body */
+.dressup_container {
+  position: relative;
+  width: 60%;
+}
+
+.dressup_images #dressup_image_body {
+  position: absolute;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.dressup_images #dressup_image_day__under_suit_1 {
+  visibility: hidden;
+  position: absolute;
+  max-height: 100%;
+  z-index: 2;
+}
+
+.dressup_images #dressup_image_day__under_suit_2 {
+  visibility: hidden;
+  position: absolute;
+  max-height: 100%;
+  z-index: 2;
+}
+
+.dressup_images #dressup_image_day__under_suit_3 {
+  visibility: hidden;
+  position: absolute;
+  max-height: 100%;
+  z-index: 2;
+}
+
+/* Dress-up outfit select */
+.outfitselect_container {
+  position: relative;
+  width: 40%;
+  margin-top: 80px;
+  padding-right: 60px;
+}
+
+.outfitselect_images #outfitselect_image_outfitselect_background {
+  position: absolute;
+  max-height: 95%;
+  z-index: -1;
+}
+
+/* Outfit select buttons */
+.outfitselect_images #outfitselect_button_day__under_suit_1 {
+  position: absolute;
+  transform: translate(39%, 51%);
+  z-index: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.outfitselect_images #outfitselect_button_day__under_suit_1 img {
+  height: 25vh;
+}
+
+.outfitselect_images #outfitselect_button_day__under_suit_2 {
+  position: absolute;
+  transform: translate(122%, 51%);
+  z-index: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.outfitselect_images #outfitselect_button_day__under_suit_2 img {
+  height: 25vh;
+}
+
+.outfitselect_images #outfitselect_button_day__under_suit_3 {
+  position: absolute;
+  transform: translate(204%, 51%);
+  z-index: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.outfitselect_images #outfitselect_button_day__under_suit_3 img {
+  height: 25vh;
 }
 
 body {
