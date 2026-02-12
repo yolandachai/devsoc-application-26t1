@@ -53,7 +53,46 @@
 
 /* Main page */
 .main {
-  margin-top: 30px;
+  margin-top: 130px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main_container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.main_headings h1 {
+  text-align: left;
+  color: #440D0F;
+  font-family: 'Inknut Antiqua';
+  font-size: 70px;
+  letter-spacing: -5px;
+  line-height: 0.3;
+  white-space: normal;
+}
+
+.main_headings h2 {
+  text-align: left;
+  color: #440D0F;
+  font-family: 'Inknut Antiqua';
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -2px;
+}
+
+.main_bodytext {
+  text-align: left;
+  color: #191716;
+  font-family: 'Cardo';
+  font-size: 20px;
+}
+
+.main_images #main_index__circle {
+  position: absolute;
+  z-index: -1;
 }
 
 body {
