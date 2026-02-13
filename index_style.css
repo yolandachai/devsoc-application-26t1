@@ -46,6 +46,7 @@
 .navbar a:hover {
   color: #603A40;
   font-weight: 700;
+  transition: all 0.2s ease;
 }
 
 .navbar a.current {

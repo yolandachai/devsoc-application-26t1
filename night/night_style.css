@@ -45,6 +45,7 @@
 
 .navbar a:hover {
   color: #603A40;
+  transition: all 0.2s ease;
   font-weight: 700;
 }
 
@@ -134,6 +135,11 @@
   height: 25vh;
 }
 
+#outfitselect_button_night__under_furgown_1 img:hover {
+  transform: scale(105%);
+  transition: all 0.2s ease;
+}
+
 #outfitselect_button_night__under_furgown_2 {
   position: absolute;
   transform: translate(105%, 58%);
@@ -147,6 +153,11 @@
   height: 25vh;
 }
 
+#outfitselect_button_night__under_furgown_2 img:hover {
+  transform: scale(105%);
+  transition: all 0.2s ease;
+}
+
 #outfitselect_button_night__under_furgown_3 {
   position: absolute;
   transform: translate(182%, 58%);
@@ -158,6 +169,11 @@
 
 #outfitselect_button_night__under_furgown_3 img {
   height: 25vh;
+}
+
+#outfitselect_button_night__under_furgown_3 img:hover {
+  transform: scale(105%);
+  transition: all 0.2s ease;
 }
 
 body {
