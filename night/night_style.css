@@ -1,14 +1,15 @@
 /* Navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #b9afbf;
   position: fixed;
+  overflow: hidden;
   top: 0;
+  height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #191716;
   z-index: 999;
+  background-color: #b9afbf;
+  border-bottom: 1px solid #191716;
 }
 
 .navbar div.navbar_left {
@@ -20,16 +21,16 @@
   margin-left: auto;
 }
 
+/* Navbar fonts */
 .navbar a {
-  color: #191716;
-  text-align: center;
-  text-decoration: none;
   margin-top: 6px;
   margin-bottom: 2px;
-  font-family: 'Cardo';
+  text-align: center;
+  color: #191716;
   font-family: 'Inknut Antiqua';
   font-weight: 300;
   letter-spacing: -1px;
+  text-decoration: none;
 }
 
 .navbar_left a {
@@ -44,13 +45,11 @@
 
 .navbar a:hover {
   color: #603A40;
-  font-family: 'Inknut Antiqua';
   font-weight: 700;
 }
 
 .navbar a.current {
   color: #603A40;
-  font-family: 'Inknut Antiqua';
   font-weight: 700;
 }
 
