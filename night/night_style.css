@@ -1,4 +1,4 @@
-/* Navigation bar */
+/* ------------------- Navigation bar ------------------- */
 .navbar {
   position: fixed;
   overflow: hidden;
@@ -21,7 +21,7 @@
   margin-left: auto;
 }
 
-/* Navbar fonts */
+/* Navbar text */
 .navbar a {
   margin-top: 6px;
   margin-bottom: 2px;
@@ -45,8 +45,8 @@
 
 .navbar a:hover {
   color: #603A40;
-  transition: all 0.2s ease;
   font-weight: 700;
+  transition: all 0.2s ease;
 }
 
 .navbar a.current {
@@ -54,126 +54,96 @@
   font-weight: 700;
 }
 
-/* Dress-up */
+/* ------------------- Dress-up ------------------- */
 .dressup {
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: calc(100vh - 50px);
+  margin-top: 50px;
   width: 100%;
+  border: 2px solid red;
 }
 
-/* Dress-up body */
+/* Dress-up body and clothes */
 .dressup_container {
+  height: calc(100vh - 50px);
+  max-width: 50%;
+  border: 2px solid blue;
   position: relative;
-  width: 60%;
+}
+
+.dressup_images {
+  display: grid;
+  place-items: center;
+  max-height: calc(100vh - 50px);
+}
+
+.dressup_images img {
+  grid-area: 1 / 1;
+  max-height: calc(100vh - 50px);
+  max-width: 50vw;
+  visibility: hidden;
 }
 
 #dressup_image_body {
-  position: absolute;
-  max-height: 100%;
-  margin-left: 10%;
-  z-index: 1;
+  visibility: visible;
 }
 
-#dressup_image_night__under_furgown_1 {
-  visibility: hidden;
-  position: absolute;
-  max-height: 100%;
-  margin-left: 10%;
-  z-index: 2;
-}
-
-#dressup_image_night__under_furgown_2 {
-  visibility: hidden;
-  position: absolute;
-  max-height: 100%;
-  margin-left: 10%;
-  z-index: 2;
-}
-
-#dressup_image_night__under_furgown_3 {
-  visibility: hidden;
-  position: absolute;
-  max-height: 100%;
-  margin-left: 10%;
-  z-index: 2;
-}
-
-/* Dress-up outfit select */
+/* Outfit selector */
 .outfitselect_container {
+  height: calc(100vh - 50px);
+  max-width: 50%;
+  border: 2px solid greenyellow;
   position: relative;
-  width: 40%;
-  margin-top: 80px;
-  padding-right: 60px;
 }
 
-.outfitselect_container p {
-  position: absolute;
-  transform: translate(50%, 250%);
-  color: #191716;
-  font-family: 'Cardo';
-  font-size: 18px;
-  font-style: italic;
+.outfitselect_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-height: calc(100vh - 50px);
+  justify-self: center;
 }
 
 #outfitselect_image_outfitselect_background {
-  position: absolute;
-  max-height: 95%;
-  z-index: -1;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  max-height: calc(100vh - 50px);
+  max-width: 50vw;
+  justify-self: center;
 }
 
 /* Outfit select buttons */
-#outfitselect_button_night__under_furgown_1 {
-  position: absolute;
-  transform: translate(30%, 58%);
-  z-index: 0;
+.outfitselect_images button {
   background: none;
   border: none;
   cursor: pointer;
+  gap: -2em;
 }
 
-#outfitselect_button_night__under_furgown_1 img {
-  height: 25vh;
+.outfitselect_images button img {
+  max-height: 25vh;
 }
 
-#outfitselect_button_night__under_furgown_1 img:hover {
+.outfitselect_images button img:hover {
   transform: scale(105%);
   transition: all 0.2s ease;
+}
+
+#outfitselect_button_night__under_furgown_1 {
+  grid-area: 1 / 1;
+  transform: translate(27%, -18%)
 }
 
 #outfitselect_button_night__under_furgown_2 {
-  position: absolute;
-  transform: translate(105%, 58%);
-  z-index: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-#outfitselect_button_night__under_furgown_2 img {
-  height: 25vh;
-}
-
-#outfitselect_button_night__under_furgown_2 img:hover {
-  transform: scale(105%);
-  transition: all 0.2s ease;
+  grid-area: 1 / 2;
+  transform: translate(0%, -18%)
 }
 
 #outfitselect_button_night__under_furgown_3 {
-  position: absolute;
-  transform: translate(182%, 58%);
-  z-index: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-#outfitselect_button_night__under_furgown_3 img {
-  height: 25vh;
-}
-
-#outfitselect_button_night__under_furgown_3 img:hover {
-  transform: scale(105%);
-  transition: all 0.2s ease;
+  grid-area: 1 / 3;
+  transform: translate(-27%, -18%)
 }
 
 body {
