@@ -63,14 +63,12 @@
   height: calc(100vh - 50px);
   margin-top: 50px;
   width: 100%;
-  border: 2px solid red;
 }
 
 /* Dress-up body and clothes */
 .dressup_container {
   height: calc(100vh - 50px);
   max-width: 50%;
-  border: 2px solid blue;
   position: relative;
 }
 
@@ -95,7 +93,6 @@
 .outfitselect_container {
   height: calc(100vh - 50px);
   max-width: 50%;
-  border: 2px solid greenyellow;
   position: relative;
 }
 
