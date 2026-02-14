@@ -96,12 +96,12 @@
   height: calc(100vh - 50px);
   max-width: 50%;
   border: 2px solid greenyellow;
-  position: relative;
 }
 
 .outfitselect_images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   max-height: calc(100vh - 50px);
   justify-self: center;
 }
@@ -119,7 +119,6 @@
   background: none;
   border: none;
   cursor: pointer;
-  gap: -2em;
 }
 
 .outfitselect_images button img {
@@ -133,17 +132,32 @@
 
 #outfitselect_button_day__under_suit_1 {
   grid-area: 1 / 1;
-  transform: translate(27%, -20%)
+  transform: translate(27%, -19%)
 }
 
 #outfitselect_button_day__under_suit_2 {
   grid-area: 1 / 2;
-  transform: translate(0%, -20%)
+  transform: translate(0%, -19%)
 }
 
 #outfitselect_button_day__under_suit_3 {
   grid-area: 1 / 3;
-  transform: translate(-27%, -20%)
+  transform: translate(-27%, -19%)
+}
+
+#outfitselect_button_day__under_coat_1 {
+  grid-area: 2 / 1;
+  transform: translate(27%, -175%)
+}
+
+#outfitselect_button_day__under_coat_2 {
+  grid-area: 2 / 2;
+  transform: translate(0%, -175%)
+}
+
+#outfitselect_button_day__under_coat_3 {
+  grid-area: 2 / 3;
+  transform: translate(-27%, -175%)
 }
 
 body {
